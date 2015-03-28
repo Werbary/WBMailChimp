@@ -54,7 +54,7 @@
                         });
                     }
                 } else {
-                    NSLog(@"%@",response);
+                    resBlock(YES,nil);
                 }
             }
         } else {
